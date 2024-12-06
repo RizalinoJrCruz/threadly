@@ -9,8 +9,8 @@
     <!-- Removed unnecessary nested ConstraintLayout -->
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="410dp"
+        android:layout_height="210dp"
         android:background="@color/white"
         android:orientation="vertical"
         android:padding="16dp"
@@ -30,6 +30,11 @@
             android:textColor="@color/violet"
             android:textSize="24sp"
             android:textStyle="bold" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/notifRecyclerView"
+            android:layout_width="366dp"
+            android:layout_height="91dp" />
 
     </LinearLayout>
 
